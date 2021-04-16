@@ -1,0 +1,9 @@
+<mvc:View xmlns:imageeditor="sap.suite.ui.commons.imageeditor" xmlns:core="sap.ui.core" xmlns:form="sap.ui.layout.form" xmlns:mvc="sap.ui.core.mvc" 
+          xmlns="sap.m"
+          controllerName="colt.fiori.controller.Supplier">
+        <Page title="Suppliers Data" showNavButton="true" navButtonPress="onBack">
+            <ObjectHeader title="{name} Since {sinceWhen}" 
+        intro="{contactPerson}" number="{contactNo}" numberUnit="{city}"
+        icon="sap-icon://supplier "></ObjectHeader>
+        </Page>
+</mvc:View>
